@@ -5,15 +5,10 @@ from tqdm import tqdm
 
 tqdm.pandas()
 
-api_key = "your api key"
-
-
-# message = client.messages.create(model="claude-sonnet-4-20250514",max_tokens=1000,messages=[{"role": "user", "content": "Comment tu vas ? "}],)
-# print(message.content[0].text)
+api_key = "your anthropic api key"
 
 
 data = pd.read_excel("contact_with_mail_content.xlsx")
-
 
 email = {
     "BNP Paribas": "bnpparibas.com",
