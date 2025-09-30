@@ -1,0 +1,6 @@
+subprocess
+pathlib
+pandas
+numpy
+anthropic
+tqdm
